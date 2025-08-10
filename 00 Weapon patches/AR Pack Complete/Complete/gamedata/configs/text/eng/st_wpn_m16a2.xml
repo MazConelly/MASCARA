@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+<string id="st_wpn_m16a2">
+		<text>DDM4 V7</text>
+	</string>
+	<string id="st_wpn_m16a2_descr">
+		<text>The DDM4 V7 AR15 style firearm features M-LOK attachment technology with the Daniel Defense MFR 15.0 rail. Built around a Cold Hammer Forged, 16 inch barrel, the V7 has a DD improved Flash Suppressor to reduce flash signature.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatini rail</text>
+	</string>
+</string_table>

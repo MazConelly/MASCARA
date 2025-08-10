@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_m82">
+		<text>Barrett M82</text>
+	</string>
+	<string id="st_wpn_m82_descr">
+		<text>Barrett M82, in the documentation of the US Armed Forces M107 - American self-loading large-caliber sniper rifle, manufactured by Barrett Firearms Manufacturing and in service with several countries around the world. The automatics of this rifle are based on a butterfly valve. The rifle belongs to the class of "antimaterial", but is more often used as a weapon against enemy infantry.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail</text>
+	</string>
+</string_table>

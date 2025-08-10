@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_saiga12s_tactical">
+		<text>KS-12 Komrad (BaS+)</text>
+	</string>
+	<string id="st_wpn_saiga12s_tactical_descr">
+		<text>A short barreled variant of the KS-12, itself a variant of the Saiga-12 semiautomatic shotgun, produced by Kalashnikov USA to work around the US ban on Russian guns. The weapon has a Picatinny rail for use with various types of sights, and includes a higher capacity magazine.\n
+		Curiously brought by Duty to provide their elite squads with access to modern sight systems as well as a more ergonomical shotgun platform. Preference or convenience, the faction usually employs closer sources of weaponry; one would assume the Komrad satisfies their standards despite the need to be shipped from the other side of the planet.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: NATO supressor</text>
+	</string>
+</string_table>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>	
+	<string id="st_wpn_us12">
+		<text>USAS-12</text>
+	</string>
+	<string id="st_wpn_us12_descr">
+		<text>The Daewoo Precision Industries USAS-12 (Universal Sports Automatic Shotgun 12 gauge) is an automatic shotgun designed for combat manufactured in South Korea by Daewoo Precision Industries in 1980s. How a Korean gun made it into Ukraine is something stalkers would very much like to know. Maybe there's a K2 rifle out there.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatini rail
+		</text>
+	</string>
+</string_table>

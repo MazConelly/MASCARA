@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_sv98_descr">
+		<text>The SV-98 (Snaiperskaya Vintovka Model 1998) is a Russian bolt action sniper rifle designed by Vladimir Stronskiy. In 2003 special operations troops were armed with the 7.62 mm 6S11 sniper system comprising the SV-98 sniper rifle (index 6V10) and 7N14 sniper enhanced penetration round. The rifle has been used in combat during operations in Chechnya.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail</text>
+	</string>
+	<string id="st_wpn_trg_descr">
+		<text>The TRG-42 is not an accurised version of an existing rifle, but was developed from the very beginning as a sniper rifle. Its consistent high accuracy and reliability have made it popular both in long-range competitions and military sniper operations.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] FINDOT scope (integrated)\n \n</text>
+	</string>
+</string_table>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_remington700">
+		<text>Remington 700</text>
+	</string>
+	<string id="st_wpn_remington700_descr">
+		<text>There are many options for a different rifle cartridge. Standard cartridge - 7.62x51 mm NATO (.308 Win). Technically, it is a magazine rifle with a longitudinally sliding rotary bolt. Store capacity depends on the caliber and can be from 3 to 5. It is a top product from Remington Arms.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail \n
+		%c[d_purple] • %c[ui_gray_2] KZRZP suppressor (after modification) \n
+		%c[d_purple] • %c[ui_gray_2] Ghillie camo net (applied when attaching a suppressor)
+		</text>
+	</string>
+</string_table>

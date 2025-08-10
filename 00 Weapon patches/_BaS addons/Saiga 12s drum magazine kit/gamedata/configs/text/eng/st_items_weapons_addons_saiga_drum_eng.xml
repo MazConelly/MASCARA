@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_addon_saiga12s_drum_kit">
+		<text>Saiga-12S tactical kit (BaS+Van)</text>
+	</string>
+	<string id="st_addon_scope_saiga12s_drum_kit">
+		<text>
+		%c[ui_gray_1] This kit includes: gas sytem improvements and several drum magazines. This is an irreversible upgrade.\n
+		%c[ui_gray_2]COMPATIBILITY:\n
+		%c[d_cyan] • %c[ui_gray_2] Saiga-12S
+		%c[d_cyan] • %c[ui_gray_2] Saiga-12 "Warden" (BaS)\n
+		%c[d_cyan] • %c[ui_gray_2] KS-12 Komrad ISG (BaS)
+		</text>
+	</string>
+</string_table>

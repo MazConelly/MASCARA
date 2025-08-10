@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<!--
+	Weapons
+-->
+
+<string_table>
+
+	<string id="st_wpn_svdnew">
+		<text>SVD Dragunov</text>
+	</string>
+	<string id="st_wpn_svdnew_descr">
+		<text>The SVD Dragunov is a sniper rifle developed between 1958-1963 that was designed to serve in a squad support role to provide precise long-range engagement capabilities to ordinary troops. A military surplus of many wars that got itself into The Zone, while rather worn and dirty, it is still in a very reliable shape. It bears no markings, which indicates it's from the Soviet Army itself, between the late 1960s and the early 1980s. With its effective range of up to 800 metres, semi-auto capability and a lightweight structure, this is quite a versatile and well-sought sniper rifle, or designated marksman rifle if some prefer to call it so, in The Zone.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes for dovetail mount\n
+		%c[d_purple] • %c[ui_gray_2] KZRZP suppressor (after modification)\n \n</text>
+	</string>
+	
+	<string id="st_wpn_svd_tiger">
+		<text>SVD "Tigr"</text>
+	</string>
+	<string id="st_wpn_svd_tiger_descr">
+		<text>The Tiger is a commercial variant of the SVD produced by Izhmash, which was done so in limited numbers until 1992, for the Russian domestic and export market, including the United States. It has markings and serial numbers indicating where it was manufactured from. It has a more ergonomic synthetic fore-end, shorter barrel and a basic flash-hider, all this improving handling, fire-rate, weight, reliability and static recoil, but also reducing accuracy, increasing continuous recoil and decreasing muzzle velocity. Favoured amongst snipers that want a more "dynamic" SVD, as if it were a true DMR instead of a Sniper Rifle. \n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes for dovetail mount\n
+		%c[d_purple] • %c[ui_gray_2] KZRZP suppressor (after modification)\n \n</text>
+	</string>
+	
+	<string id="st_wpn_svdm">
+		<text>SVDM</text>
+	</string>
+	<string id="st_wpn_svdm_descr">
+		<text>The SVDM is a modernized SVDS variant first produced as a prototype somewhere around 2014-2015, currently tested favourably by the Russian Army this year, which explains the rarity in The Zone itself. It features a redesigned side-folding stock, a 21.7-inch barrel, redesigned iron sights, a new 1P88-4 scope that you can acquire somewhere else and an integral picatinny rail on the receiver cover, allowing both Warsaw Pact and NATO scopes to be used. It also comes with a 20-round Magazine. Topping all this, this is a "one of a kind" type of SVD you can get in The Zone, and one of the very best with only the absurdly high price being the deterrent. \n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatini rail\n
+		%c[d_purple] • %c[ui_gray_2] KZRZP suppressor\n \n</text>
+	</string>
+	
+	<string id="st_addon_scope_1p88">
+		<text>1P88 Scope</text>
+	</string>
+	<string id="st_addon_scope_1p88_descr">
+		<text>\n \n%c[ui_gray_2]COMPATIBILITY:\n \n%c[d_cyan] • %c[ui_gray_2] SVDM\n \n%c[ui_gray_1]The 1P88 is a relatively new optical sight made specifically for the SVDM, with magnification power ranging from 3.0x up to 12x. It was made as an improvement of the classic PSO-1 scope. It uses a battery for illumination and has a "killflash" kit inside to avoid unnecessary light entering the optics.\n \n
+		%c[d_purple] • %c[ui_gray_2] Magnification: %c[ui_gray_1]3.0-12x\n
+		%c[d_purple] • %c[ui_gray_2] Condition: %c[ui_gray_1]perfect\n
+		%c[d_purple] • %c[ui_gray_2] Reticule pattern: %c[ui_gray_1]1P88</text>
+	</string>
+	
+</string_table>

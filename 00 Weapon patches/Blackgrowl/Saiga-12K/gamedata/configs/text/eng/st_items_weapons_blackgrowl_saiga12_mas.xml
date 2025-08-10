@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_saiga12s">
+		<text>Saiga-12S</text>
+	</string>
+	<string id="st_wpn_saiga12s_descr">
+		<text>The Saiga-12 is a Kalashnikov pattern, 12 gauge combat shotgun, manufactured by Izhmash. The Saiga-12 is recognizable by its Kalashnikov design with the large lever safety on the right side of the receiver, the optic mounting rail on the left and the large top mounted dust cover held in place by the rear of the recoil spring assembly. Earning respect in the Zone for its lethality, it is intended for engaging targets at short range (50 metres or less) or in confined spaces.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes for dovetail mount\n
+		%c[d_purple] • %c[ui_gray_2] PBS-1</text>
+	</string>
+</string_table>

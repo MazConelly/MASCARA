@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+	<string id="st_wpn_m24_new">
+		<text>M24 SWS</text>
+	</string>
+	<string id="st_wpn_m24_new_short">
+		<text>M24 SWS</text>
+	</string>
+	<string id="st_wpn_m24_new_descr">
+		<text>A sniper rifle of the US Army, the M24 Sniper Weapon System (SWS) is based on the Remington 700. Fitted with a Leupold 10x40mm scope, the M24 has a stainless steel barrel and an adjustable composite stock made from Kevlar and graphite.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor\n
+		%c[d_purple] • %c[ui_gray_2] Leupold Mark 4 scope (integrated)</text>
+	</string>
+
+	<string id="st_wpn_m98b">
+		<text>Barrett M98B "Bravo"</text>
+	</string>
+	<string id="st_wpn_m98b_descr">
+		<text>The Barrett M98B is a bolt-action sniper rifle chambered in .338 Lapua Mag. Rather than modifying a hunting rifle, Barrett created an original design for the M98B. The M98B features an adjustable stock and cheek pad for comfort, an adjustable trigger for preferable trigger control, a rear monopod and a front bi-pod for stability. Users can further modify the rifle by attaching sights, lights and grips to its rails. The M98B has a simple design making it easy for users to disassemble and clean.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
+		%c[d_purple] • %c[ui_gray_2] SR-25 suppressor (after modification)</text>
+	</string>
+</string_table>

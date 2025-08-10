@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_m249">
+		<text>M249 SAW</text>
+	</string>
+	<string id="st_wpn_m249_descr">
+		<text>The M249 is a belt fed 5.56x45 machine gun. It is the American adaptation of the Belgian FN Minimi. The M249 has seen action in every major conflict involving the United States since the U.S. invasion of Panama in 1989. Soldiers are generally satisfied with the weapon's performance, though there have been reports of clogging with dirt and sand.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail</text>
+	</string>
+</string_table>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_l96a1">
+		<text>L96A1</text>
+	</string>
+	<string id="st_wpn_l96a1_descr">
+		<text>The Accuracy International Arctic Warfare rifle is a family of bolt-action sniper rifles designed and manufactured by the British company, Accuracy International. It has proved popular as a civilian, police and military rifle since its introduction in the 1980s. The rifles have some features which improve performance in very cold conditions, without impairing operation in less extreme conditions.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail</text>
+	</string>
+	<string id="st_wpn_l96a1m">
+		<text>L96 AWSM </text>
+	</string>
+	<string id="st_wpn_l96a1m_descr">
+		<text>The Accuracy International Arctic Warfare rifle is a family of bolt-action sniper rifles designed and manufactured by the British company, Accuracy International. It has proved popular as a civilian, police and military rifle since its introduction in the 1980s. The rifles have some features which improve performance in very cold conditions, without impairing operation in less extreme conditions.\n
+		The L96 AWSM utilises .338 Lapua Magnum.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail</text>
+	</string>
+</string_table>

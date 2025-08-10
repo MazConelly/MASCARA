@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+  <string id="st_wpn_saiga12s_drum">
+		<text>Saiga-12S - Drum</text>
+	</string>
+	<string id="st_wpn_saiga12s_drum_descr">
+		<text>The Saiga-12 is a Kalashnikov pattern, 12 gauge combat shotgun, manufactured by Izhmash. The Saiga-12 is recognizable by its Kalashnikov design with the large lever safety on the right side of the receiver, the optic mounting rail on the left and the large top mounted dust cover held in place by the rear of the recoil spring assembly. Earning respect in the Zone for its lethality, it is intended for engaging targets at short range (50 metres or less) or in confined spaces.\n
+		This particular weapon has a drum magazine, and has received changes to its gas system.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Dovetail mount.\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: PBS-1 suppressor</text>
+	</string>
+
+	<string id="st_wpn_saiga12s_m1_drum">
+		<text>Saiga-12 "Warden" - Drum (BaS)</text>
+	</string>
+	<string id="st_wpn_saiga12s_m1_drum_descr">
+		<text>A Saiga-12 modified by the manufacturer at the request of the Ministry of Science and its personel. The expeditions of the ecologists puts both the researchers and their escorts to higher risk of encountering dangerous mutants. With suggestions from both their guards and mercenaries, simple but effective modifications were made to a basic Saiga-12 to improve its basic capabilities, giving it an edge over other shotguns against aggressive wildlife.\n
+		This particular weapon has a drum magazine, and has received changes to its gas system.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Dovetail mount.\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: PBS-1 suppressor</text>
+	</string>
+
+	<string id="st_wpn_saiga12s_isg_drum">
+		<text>KS-12 Komrad ISG - Drum (BaS)</text>
+	</string>
+	<string id="st_wpn_saiga12s_isg_drum_descr">
+		<text>Produced by Kalashnikov USA and based of the short-barreled Komrad semi-automatic rifle, a variant of their KS-12 which itself is a US development of the Saiga-12. It has been provided to members of ISG research teams to protect themselves from mutants. The weapon has both a dovetail mount and a picatinny bar for use with various types of sights. This model has a new type of trigger mechanism, which allows you to two rounds burst.\n
+		This particular weapon has a drum magazine, and has received changes to its gas system.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail. \n
+		%c[d_purple] • %c[ui_gray_2] Silencer: NATO suppressor</text>
+	</string>
+</string_table>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_g43">
+		<text>Karabiner 43</text>
+	</string>
+	<string id="st_wpn_g43_descr">
+		<text>Adopting a simple gas-operated mechanism from Soviet SVT rifles, Nazi Germany developed the Gewehr 43 semi-automatic rifle. It was renamed Karabiner 43 in 1944. Equipped with the ZF 4 telescopic sight, it is an effective sniper rifle.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] ZF-41 scope</text>
+	</string>
+</string_table>

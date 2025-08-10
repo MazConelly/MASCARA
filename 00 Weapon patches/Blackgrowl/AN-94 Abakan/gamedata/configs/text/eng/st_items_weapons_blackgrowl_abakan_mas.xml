@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_abakan_descr">
+		<text>A key improvement of the AN-94 over the AK-74 is the introduction of the additional 2-rounds burst mode. Nikonov design delays the force of recoil until the fired rounds have left the barrel, which along with a unique 1800 rpm two-shot burst function increases body armour piercing capabilities of this firearm. Used by Spetsnaz operators as well as Duty members to take out armoured targets at relatively long ranges.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes for dovetail mount\n 
+		%c[d_purple] • %c[ui_gray_2] GP-25 grenade launcher (after modification)</text>
+	</string>
+</string_table>

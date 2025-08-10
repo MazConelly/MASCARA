@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_mosin_descr">
+		<text>A basic version of the Mosin-Nagant with slightly worn interiors. The M1891/30 was produced for standard issue to all Soviet infantry from 1930 to 1945. It was extremely successful in World War II as a sniper rifle when it was equipped with a 4x PE or a 3.5x PU scope.\n
+		%c[ui_gray_2]ATTACHMENTS: \n%c[d_purple]• %c[ui_gray_2] PU scopes\n \n
+		%c[d_purple] • %c[ui_gray_2] Ghillie camo net (applied when attaching a suppressor)\n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: \n
+		With Simple Weapons Pack: Gunsmith weapon mod kit
+		</text>
+	</string>
+
+	<string id="st_wpn_k98_descr">
+		<text>During World War II, certain Karabiner 98k rifles were selected for their exceptional accuracy and fitted with the ZF39 telescopic sight. These rifles were used by Nazi Germany as sniper rifles. In skilled hands, they had an effective range of up to 1000 meters.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] ZF scope series\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor (alternate) \n
+		%c[d_purple] • %c[ui_gray_2] Ghillie camo net (applied when attaching a suppressor)</text>
+	</string>
+</string_table>

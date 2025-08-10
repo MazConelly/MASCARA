@@ -1,0 +1,639 @@
+;
+; ACOG
+;
+
+![acog]:scope_base
+	inv_offset_x                     = 23
+	inv_offset_y                     = 37
+	scope_zoom_factor                = 20
+	hud                              = acog_hud
+	; s3ds_reticle_size = 4.6
+	; s3ds_eye_relief = 1.95
+	; s3ds_reticle_type = 3
+	; magnification = 4
+	; ms_colors = scope_acog
+	; s3ds_dirt_intensity = 0.75
+	; s3ds_zoom_in = 2
+	; s3ds_chroma_power = 0.075
+	; s3ds_reflection_hue = 0.55
+	; scope_texture                    = wpn_crosshair_acog_rmr
+
+![acog_hud]:scope_hud_base
+item_visual                      = attachments\scopes\acog
+aim_hud_offset_alt_pos           = -0.045537, -0.012032, 0.137728
+aim_hud_offset_alt_pos_16x9      = -0.045537, -0.012032, 0.137728
+aim_hud_offset_alt_rot           = -0.004417, 0.004928, -1.05336
+aim_hud_offset_alt_rot_16x9      = -0.004417, 0.004928, -1.05336
+aim_hud_offset_pos               = -0.00056, -0.02691, 0.105927
+aim_hud_offset_pos_16x9          = -0.00056, -0.02691, 0.105927
+
+![triji]:scope_base
+	inv_offset_x                     = 23
+	inv_offset_y                     = 37
+	scope_zoom_factor                = 20
+	hud                              = triji_hud
+	use_alt_aim_hud			 = true
+	s3ds_reticle_size = 4.6
+	s3ds_eye_relief = 1.95
+	s3ds_reticle_type = 3
+	magnification = 4
+	ms_colors = scope_acog
+	s3ds_dirt_intensity = 0.75
+	s3ds_zoom_in = 2
+	s3ds_chroma_power = 0.075
+	s3ds_reflection_hue = 0.55
+	scope_texture                    = wpn_crosshair_acog_rmr
+
+[triji_hud]:scope_hud_base
+	item_visual                      = attachments\scopes\triji
+        aim_hud_offset_pos               = -0.000162, -0.029117, 0.097189
+        aim_hud_offset_pos_16x9          = -0.000162, -0.029117, 0.097189
+        aim_hud_offset_alt_pos           = -0.026666, -0.015936, 0.12384
+        aim_hud_offset_alt_pos_16x9      = -0.026666, -0.015936, 0.12384
+        aim_hud_offset_alt_rot           = 0, 0, -0.45
+
+![scope_group_picatinny_medium]
+    >scopes                          = triji
+
+![scope_group_picatinny_short_phys]
+    >scopes                          = acog
+
+;
+; Leupold
+;
+
+![leupold]:scope_base
+inv_offset_x		= 23
+inv_offset_y		= 37
+scope_zoom_factor	= 8 ;15
+scope_dynamic_zoom	= on
+hud					= leupold_hud
+; s3ds_reticle_size = 5.1
+; s3ds_eye_relief = 1.7
+; s3ds_ffp = 8
+; s3ds_min_zoom_fov = 65
+; magnification = 8
+; min_magnification = 3
+; s3ds_min_zoom_1x = 1
+; s3ds_min_zoom_fov = 56
+; s3ds_chroma_power = 0.03
+; s3ds_dirt_intensity = 0.3
+; s3ds_lens_color	= lens_new_bright
+scope_texture	= wpn_crosshair_leupold
+
+[leupold_hud]:scope_hud_base
+item_visual                      = attachments\scopes\leupold
+aim_hud_offset_pos               = -0.00091, -0.029309, 0.105664
+aim_hud_offset_pos_16x9          = -0.00091, -0.029309, 0.105664
+
+![mark8_rmr]:scope_base
+	inv_offset_x                     = 23
+	inv_offset_y                     = 37
+	scope_zoom_factor                = 15
+	scope_dynamic_zoom               = on
+	hud                              = leupold_alt_hud
+	use_alt_aim_hud			 = true
+	s3ds_reticle_size = 5.1
+	s3ds_eye_relief = 1.7
+	s3ds_ffp = 8
+	s3ds_min_zoom_fov = 65
+	magnification = 8
+	min_magnification = 3
+	s3ds_min_zoom_1x = 1
+	s3ds_min_zoom_fov = 56
+	s3ds_chroma_power = 0.03
+	s3ds_dirt_intensity = 0.3
+	s3ds_lens_color = lens_new_bright
+	scope_texture                    = wpn_crosshair_leupold
+
+[leupold_alt_hud]:scope_hud_base
+	item_visual                      = attachments\scopes\leupold_alt
+        aim_hud_offset_alt_pos           = -0.026666, -0.015936, 0.12384
+        aim_hud_offset_alt_pos_16x9      = -0.026666, -0.015936, 0.12384
+        aim_hud_offset_alt_rot           = 0, 0, -0.45
+        aim_hud_offset_alt_rot_16x9      = 0, 0, -0.45
+        aim_hud_offset_pos               = -0.000906, -0.029309, 0.105344
+        aim_hud_offset_pos_16x9          = -0.000906, -0.029309, 0.105344
+
+
+![scope_group_picatinny_short]
+    >scopes                          = leupold
+
+![scope_group_picatinny_long]
+    >scopes                          = mark8_rmr
+
+;
+; PN-23
+;
+
+![pn23]:scope_base
+	inv_offset_x                     = 23
+	inv_offset_y                     = 37
+	scope_zoom_factor                = 15
+	scope_dynamic_zoom               = on
+	hud                              = pn23_hud
+	s3ds_reticle_size = 5
+	s3ds_eye_relief = 1.9
+	s3ds_image_type = 1
+	s3ds_reticle_type = 7
+	ms_count = 2
+	s3ds_ffp = 4
+	magnification = 4
+	min_magnification = 1.5
+	s3ds_dirt_intensity = 0.3
+	scope_texture                    = wpn_crosshair_pn23
+	
+
+[pn23_hud]:scope_hud_base
+	item_visual                      = attachments\scopes\pn23
+        aim_hud_offset_pos               = -0.000643, -0.039549, 0.097472
+        aim_hud_offset_pos_16x9          = -0.000643, -0.039549, 0.097472
+
+
+![scope_group_picatinny_medium]
+    >scopes                          = pn23
+
+;
+; March-F
+;
+
+![marchf]:scope_base
+	inv_offset_x                     = 23
+	inv_offset_y                     = 37
+	scope_zoom_factor                = 8
+	min_scope_zoom_factor            = 40
+	scope_dynamic_zoom               = on
+	hud                              = marchf_hud
+	s3ds_reticle_size = 5
+	s3ds_eye_relief = 1.7
+	s3ds_reticle_type = 2
+	magnification = 24
+	min_magnification = 3
+	s3ds_ffp = 9.5
+	ms_count = 2
+	ms_colors = scope_black, scope_red
+	s3ds_min_zoom_1x = 1
+	s3ds_dirt_intensity = 0.2
+	s3ds_lens_color = lens_new_bright
+	s3ds_chroma_power = 0.03
+	scope_texture                    = wpn_crosshair_marchf
+
+
+[marchf_hud]:scope_hud_base
+	item_visual                      = attachments\scopes\marchf
+        aim_hud_offset_pos               = -0.000801, -0.029885, 0.107392
+        aim_hud_offset_pos_16x9          = -0.000801, -0.029885, 0.107392
+
+
+![scope_group_picatinny_long]
+    >scopes                          = marchf
+
+;
+; Specter
+;
+
+![specter]:scope_base
+	inv_offset_x                     = 23
+	inv_offset_y                     = 37
+	scope_zoom_factor                = 20
+	scope_dynamic_zoom               = on
+	zoom_step_count			 = 1
+	hud                              = specter_hud
+	use_alt_aim_hud			 = true
+	s3ds_reticle_size = 5.2
+	s3ds_eye_relief = 1.7
+	s3ds_reticle_type = 4
+	s3ds_ffp = 0
+	s3ds_min_zoom_fov = 50
+	ms_count = 3
+	ms_colors = scope_black, scope_red_dim, scope_red
+	magnification = 4
+	min_magnification = 1
+	s3ds_max_zoom_fov = 22
+	s3ds_min_zoom_1x = 1
+	zoom_step_count = 1
+	s3ds_dirt_intensity = 0.5
+	s3ds_chroma_power = 0.03
+	scope_texture                    = wpn_crosshair_specter
+	
+
+[specter_hud]:scope_hud_base
+	item_visual                      = attachments\scopes\specter
+        aim_hud_offset_pos               = -0.000535, -0.027581, 0.073893
+        aim_hud_offset_pos_16x9          = -0.000535, -0.027581, 0.073893
+        aim_hud_offset_alt_pos           = -0.000431, -0.050109, 0.114853
+        aim_hud_offset_alt_pos_16x9      = -0.000431, -0.050109, 0.114853
+        aim_hud_offset_alt_rot           = 0, 0, 0
+        aim_hud_offset_alt_rot_16x9      = 0, 0, 0
+
+![spec_alt]:scope_base
+	inv_offset_x                     = 23
+	inv_offset_y                     = 37
+	scope_zoom_factor                = 20
+	scope_dynamic_zoom               = on
+	zoom_step_count			 = 1
+	hud                              = spec_alt_hud
+	use_alt_aim_hud			 = true
+	s3ds_reticle_size = 5.2
+	s3ds_eye_relief = 1.7
+	s3ds_reticle_type = 4
+	s3ds_ffp = 0
+	s3ds_min_zoom_fov = 50
+	ms_count = 3
+	ms_colors = scope_black, scope_red_dim, scope_red
+	magnification = 4
+	min_magnification = 1
+	s3ds_max_zoom_fov = 22
+	s3ds_min_zoom_1x = 1
+	zoom_step_count = 1
+	s3ds_dirt_intensity = 0.5
+	s3ds_chroma_power = 0.03
+	scope_texture                    = wpn_crosshair_specter
+	
+
+[spec_alt_hud]:scope_hud_base
+	item_visual                      = attachments\scopes\spec_alt
+        aim_hud_offset_pos               = -0.000535, -0.027581, 0.073893
+        aim_hud_offset_pos_16x9          = -0.000535, -0.027581, 0.073893
+        aim_hud_offset_alt_pos           = -0.026666, -0.015936, 0.12384
+        aim_hud_offset_alt_pos_16x9      = -0.026666, -0.015936, 0.12384
+        aim_hud_offset_alt_rot           = 0, 0, -0.45
+	aim_hud_offset_alt_rot_16x9      = 0, 0, -0.45
+
+![scope_group_picatinny_medium]
+    >scopes                          = spec_alt
+
+![scope_group_picatinny_short_phys]
+    >scopes                          = specter
+
+;
+; Susat
+;
+
+![susat]:scope_base
+	inv_offset_x                     = 23
+	inv_offset_y                     = 37
+	scope_zoom_factor                = 20
+	hud                              = susat_hud
+	use_alt_aim_hud			 = true
+	magnification = 4
+	s3ds_reticle_size = 5.3
+	s3ds_eye_relief = 1.6
+	magnification = 4
+	s3ds_dirt_intensity = 0.5
+	s3ds_chroma_power = 0.05
+	scope_texture                    = wpn_crosshair_susat
+
+[susat_hud]:scope_hud_base
+	item_visual                      = attachments\scopes\susat
+        aim_hud_offset_alt_pos           = 0, -0.051392, 0.08704
+        aim_hud_offset_alt_pos_16x9      = 0, -0.051392, 0.08704
+        aim_hud_offset_pos               = -2e-06, -0.031421, 0.069285
+        aim_hud_offset_pos_16x9          = -2e-06, -0.031421, 0.069285
+        aim_hud_offset_alt_rot           = 0, 0, 0
+        aim_hud_offset_alt_rot_16x9      = 0, 0, 0
+
+![scope_group_picatinny_short_phys]
+    >scopes                          = susat
+
+;
+; Trijicon REAP-IR
+;
+
+![gauss_sight]:scope_base
+	inv_offset_x                     = 23
+	inv_offset_y                     = 37
+	scope_zoom_factor                = 15
+	scope_dynamic_zoom               = on
+	hud                              = gauss_sight_hud
+	s3ds_image_type = 2
+	s3ds_reticle_type = 0
+	s3ds_eye_relief = 1.7
+	s3ds_reticle_size = 4.8
+	magnification = 6
+	min_magnification = 1.5
+	ms_count = 3
+	s3ds_dirt_intensity = 0.2
+	scope_texture                    = wpn_crosshair_gauss
+
+[gauss_sight_hud]:scope_hud_base
+	item_visual                      = attachments\scopes\gauss_sight
+        aim_hud_offset_pos               = -0.000749, -0.032317, 0.09216
+        aim_hud_offset_pos_16x9          = -0.000749, -0.032317, 0.09216
+
+![scope_group_picatinny_short_phys]
+    >scopes                          = gauss_sight
+
+
+;
+; PSO-1
+;
+
+![ps01]:scope_base
+inv_offset_x                     = 45
+inv_offset_y                     = 27
+; scope_texture                    = wpn_crosshair_pso1
+scope_zoom_factor                = 15
+hud                              = ps01_hud
+; s3ds_reticle_size = 5.3
+; s3ds_eye_relief = 1.7
+; s3ds_reticle_type = 1
+; ms_count = 2
+; ms_colors = scope_black, scope_red
+; magnification = 4
+; s3ds_dirt_intensity = 0.75
+; s3ds_reflection_hue = 0.55
+
+![ps01_hud]:scope_hud_base
+item_visual                      = attachments\scopes\pso1
+aim_hud_offset_pos               = -0.006885, -0.071616, 0.141376
+aim_hud_offset_pos_16x9          = -0.006885, -0.071616, 0.141376
+aim_hud_offset_alt_pos           = -0.069001, -0.057984, 0.153472
+aim_hud_offset_alt_pos_16x9      = -0.069001, -0.057984, 0.153472
+aim_hud_offset_alt_rot           = -0.00383, 0.005376, -1.05336
+aim_hud_offset_alt_rot_16x9      = -0.00383, 0.005376, -1.05336
+custom_ui_rot	= 0,0,90
+
+![scope_group_dovetail]
+>scopes                          = ps01
+
+;
+; PSO-1M2-01
+;
+
+![pso1m21]:scope_base
+	inv_offset_x                     = 45
+	inv_offset_y                     = 27
+	scope_dynamic_zoom               = off
+    scope_texture                    = wpn_crosshair_pso1
+    scope_zoom_factor                = 15
+	hud                              = pso1m21_hud
+	s3ds_reticle_size = 4.9
+	s3ds_eye_relief = 1.9
+	s3ds_reticle_type = 1
+	ms_count = 2
+	ms_colors = scope_black, scope_red
+	magnification = 4
+	s3ds_dirt_intensity = 0.75
+	s3ds_reflection_hue = 0.55
+
+![pso1m21_hud]:scope_hud_base
+	item_visual                      = attachments\scopes\pso1m21
+        aim_hud_offset_pos               = -0.006885, -0.07168, 0.14304
+        aim_hud_offset_pos_16x9          = -0.006885, -0.07168, 0.14304
+        aim_hud_offset_alt_pos           = -0.069001, -0.057984, 0.153472
+        aim_hud_offset_alt_pos_16x9      = -0.069001, -0.057984, 0.153472
+        aim_hud_offset_alt_rot           = -0.00383, 0.005376, -1.05336
+        aim_hud_offset_alt_rot_16x9      = -0.00383, 0.005376, -1.05336
+
+![scope_group_dovetail]
+    >scopes                          = pso1m21
+
+;
+; PSO-2
+;
+
+![pso2]:scope_base
+inv_offset_x		= 45
+inv_offset_y		= 27
+; scope_texture		= wpn_crosshair_pso1
+scope_zoom_factor	= 15
+hud					= pso2_hud
+; s3ds_reticle_size = 4.9
+; s3ds_eye_relief = 1.9
+; s3ds_reticle_type = 1
+; ms_count = 2
+; ms_colors = scope_black, scope_red
+; magnification = 4
+; s3ds_dirt_intensity = 0.75
+; s3ds_reflection_hue = 0.55
+
+![pso2_hud]:scope_hud_base
+item_visual					= attachments\scopes\pso2
+aim_hud_offset_pos			= -0.006885, -0.071616, 0.141376
+aim_hud_offset_pos_16x9		= -0.006885, -0.071616, 0.141376
+aim_hud_offset_alt_pos		= -0.069001, -0.057984, 0.153472
+aim_hud_offset_alt_pos_16x9	= -0.069001, -0.057984, 0.153472
+aim_hud_offset_alt_rot		= -0.00383, 0.005376, -1.05336
+aim_hud_offset_alt_rot_16x9	= -0.00383, 0.005376, -1.05336
+custom_ui_rot	= 0,0,90
+
+![scope_group_dovetail]
+>scopes                          = pso2
+
+;
+; 1P29
+;
+
+![1p29]:scope_base
+	inv_offset_x                     = 20
+	inv_offset_y                     = 29
+    scope_texture                    = wpn_crosshair_1p29
+    scope_zoom_factor                = 15
+	hud                              = 1p29_hud
+	s3ds_reticle_size = 5
+	s3ds_eye_relief = 1.75
+	magnification = 4
+	s3ds_dirt_intensity = 0.75
+	s3ds_reflection_hue = 0.55
+
+![1p29_hud]:scope_hud_base
+	item_visual                      = attachments\scopes\1p29
+        aim_hud_offset_pos               = -0.022387, -0.09504, 0.105856
+        aim_hud_offset_pos_16x9          = -0.022387, -0.09504, 0.105856
+        aim_hud_offset_alt_pos           = -0.069001, -0.057984, 0.153472
+        aim_hud_offset_alt_pos_16x9      = -0.069001, -0.057984, 0.153472
+        aim_hud_offset_alt_rot           = -0.00383, 0.005376, -1.05336
+        aim_hud_offset_alt_rot_16x9      = -0.00383, 0.005376, -1.05336
+
+![scope_group_dovetail]
+    >scopes                          = 1p29
+
+;
+; USP-1
+;
+
+![usp1]:scope_base
+	inv_offset_x                     = 20
+	inv_offset_y                     = 29
+    scope_texture                    = wpn_crosshair_1p29
+    scope_zoom_factor                = 15
+	hud                              = 1p29_hud
+	s3ds_reticle_size = 5
+	s3ds_eye_relief = 1.75
+	magnification = 4
+	s3ds_dirt_intensity = 0.75
+	s3ds_reflection_hue = 0.55
+
+![scope_group_dovetail]
+    >scopes                          = usp1
+
+;
+; 1P59
+;
+
+![1p59]:scope_base
+	scope_dynamic_zoom               = on
+    scope_texture                    = wpn_crosshair_1p59
+    scope_zoom_factor                = 10
+	min_scope_zoom_factor            = 40
+	hud                              = 1p59_hud
+	s3ds_reticle_size = 5.4
+	s3ds_eye_relief = 1.65
+	s3ds_ffp = 4
+	s3ds_min_zoom_fov = 32
+	s3ds_reticle_type = 5
+	ms_count = 2
+	ms_colors = scope_black, scope_red
+	magnification = 10
+	min_magnification = 3
+	s3ds_dirt_intensity = 0.75
+
+![1p59_hud]:scope_hud_base
+	item_visual                      = attachments\scopes\1p59
+        aim_hud_offset_pos               = -0.004325, -0.08, 0.0928
+        aim_hud_offset_pos_16x9          = -0.004325, -0.08, 0.0928
+        aim_hud_offset_alt_pos           = -0.069001, -0.057984, 0.153472
+        aim_hud_offset_alt_pos_16x9      = -0.069001, -0.057984, 0.153472
+        aim_hud_offset_alt_rot           = -0.00383, 0.005376, -1.05336
+        aim_hud_offset_alt_rot_16x9      = -0.00383, 0.005376, -1.05336
+
+![scope_group_dovetail]
+    >scopes                          = 1p59
+
+;
+; 1PN93
+;
+
+![1pn93]:scope_base
+	scope_texture                    = wpn_crosshair_1pn93
+	scope_zoom_factor                = 20
+	hud                              = 1pn93_hud
+	s3ds_reticle_size = 5.3	
+	s3ds_eye_relief = 1.6
+	s3ds_image_type = 1
+	ms_count = 2
+	magnification = 4
+	s3ds_dirt_intensity = 0.75
+
+![1pn93_hud]:scope_hud_base
+	item_visual                      = attachments\scopes\1pn93
+        aim_hud_offset_pos               = -0.009451, -0.09632, 0.10688
+        aim_hud_offset_pos_16x9          = -0.009451, -0.09632, 0.10688
+        aim_hud_offset_alt_pos           = -0.069001, -0.057984, 0.153472
+        aim_hud_offset_alt_pos_16x9      = -0.069001, -0.057984, 0.153472
+        aim_hud_offset_alt_rot           = -0.00383, 0.005376, -1.05336
+        aim_hud_offset_alt_rot_16x9      = -0.00383, 0.005376, -1.05336
+
+![scope_group_dovetail]
+    >scopes                          = 1pn93
+
+;
+; 1PN93-1
+;
+
+![1pn93n2_1gs]:scope_base
+	scope_zoom_factor                = 20
+	hud                              = 1pn93n2_1gs_hud
+	s3ds_reticle_size = 5
+	s3ds_eye_relief = 1.83
+	s3ds_image_type = 1
+	ms_count = 2
+	magnification = 4
+	s3ds_dirt_intensity = 0.75
+	scope_texture                    = wpn_crosshair_1pn93
+
+[1pn93n2_1gs_hud]:scope_hud_base
+	item_visual                      = attachments\scopes\1pn93n2_1gs
+        aim_hud_offset_pos               = -0.004648, -0.081088, 0.109248
+        aim_hud_offset_pos_16x9          = -0.004648, -0.081088, 0.109248
+        aim_hud_offset_alt_pos           = -0.069001, -0.057984, 0.153472
+        aim_hud_offset_alt_pos_16x9      = -0.069001, -0.057984, 0.153472
+        aim_hud_offset_alt_rot           = -0.00383, 0.005376, -1.05336
+        aim_hud_offset_alt_rot_16x9      = -0.00383, 0.005376, -1.05336
+
+![scope_group_dovetail]
+    >scopes                          = 1pn93n2_1gs
+
+;
+; 1P78 Kashtan
+;
+
+![1p78gs]:scope_base
+	scope_zoom_factor                = 30
+	hud                              = 1p78gs_hud
+	s3ds_reticle_size = 5.4
+	s3ds_eye_relief = 1.65
+	magnification = 2.8
+	s3ds_dirt_intensity = 0.75
+	scope_texture                    = wpn_crosshair_1p78gs
+
+[1p78gs_hud]:scope_hud_base
+	item_visual                      = attachments\scopes\1p78gs
+        aim_hud_offset_pos               = -0.0207, -0.083776, 0.0944
+        aim_hud_offset_pos_16x9          = -0.0207, -0.083776, 0.0944
+        aim_hud_offset_alt_pos           = -0.069001, -0.057984, 0.153472
+        aim_hud_offset_alt_pos_16x9      = -0.069001, -0.057984, 0.153472
+        aim_hud_offset_alt_rot           = -0.00383, 0.005376, -1.05336
+        aim_hud_offset_alt_rot_16x9      = -0.00383, 0.005376, -1.05336
+
+![scope_group_dovetail]
+    >scopes                          = 1p78gs
+
+;
+; PKA
+;
+
+![pka]:scope_base
+inv_offset_x                     = 45
+inv_offset_y                     = 27
+scope_zoom_factor                = 0
+hud                              = pka_hud
+; s3ds_reticle_size = 4
+; s3ds_eye_relief = 2.2
+; s3ds_min_zoom_1x = 1
+; magnification = 1.25
+; s3ds_dirt_intensity = 0.5
+
+[pka_hud]:scope_hud_base
+item_visual                      = attachments\scopes\pka
+aim_hud_offset_pos               = -0.010547, -0.073408, 0.079424
+aim_hud_offset_pos_16x9          = -0.010547, -0.073408, 0.079424
+aim_hud_offset_alt_pos           = -0.069001, -0.057984, 0.153472
+aim_hud_offset_alt_pos_16x9      = -0.069001, -0.057984, 0.153472
+aim_hud_offset_alt_rot           = -0.00383, 0.005376, -1.05336
+aim_hud_offset_alt_rot_16x9      = -0.00383, 0.005376, -1.05336
+custom_ui_rot	= 0,0,90
+
+![scope_group_dovetail]
+>scopes                          = pka
+
+
+
+;
+; PGO-7
+;
+
+![pgo7gs]:scope_base
+	scope_texture		 = wpn_crosshair_rpg
+	scope_zoom_factor	 = 28.5
+	scope_dynamic_zoom	 = off
+	hud = pgo7gs_hud
+	s3ds_reticle_size = 4.2
+	s3ds_eye_relief = 2.25
+	magnification = 2.8
+	s3ds_dirt_intensity = 0.75
+
+[pgo7gs_hud]:scope_hud_base
+	item_visual                      = attachments\scopes\pgo7gs
+        aim_hud_offset_pos               = 0.013333, -0.077184, 0.072768
+        aim_hud_offset_pos_16x9          = 0.013333, -0.077184, 0.072768
+        aim_hud_offset_rot               = 0, 0, 0
+        aim_hud_offset_rot_16x9          = 0, 0, 0
+        aim_hud_offset_alt_pos           = -0.069001, -0.057984, 0.153472
+        aim_hud_offset_alt_pos_16x9      = -0.069001, -0.057984, 0.153472
+        aim_hud_offset_alt_rot           = -0.00383, 0.005376, -1.05336
+        aim_hud_offset_alt_rot_16x9      = -0.00383, 0.005376, -1.05336
+
+![scope_group_dovetail]
+    >scopes                          = pgo7gs

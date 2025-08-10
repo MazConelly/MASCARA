@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_xm8">
+		<text>XM8</text>
+	</string>
+	<string id="st_wpn_xm8_descr">
+		<text>The XM8 is a lightweight assault rifle system from the late 1990s to early 2000s. The rifle was designed by German small arms manufacturer Heckler & Koch (H&K), and shares design and engineering with their G36 rifle.\n
+		The XM8 design was originally part of the Objective Individual Combat Weapon program (OICW), which was developing a "smart" grenade launcher system with an underslung carbine rifle. The system was unable to meet performance and weight requirements and was eventually cancelled. In the aftermath, the two portions of the OICW were separated, resulting in the XM8 and XM25 projects.\n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor
+		</text>
+	</string>
+</string_table>

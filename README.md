@@ -1,2 +1,2 @@
-# MASsively-Clicked-Augmented-Reality-Attachments
+# MASsively Clicked Augmented Reality Attachments
 Patches different mods for MAS

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_mp7">
+		<text>H&amp;K MP7</text>
+	</string>
+	<string id="st_wpn_mp7_s">
+		<text>MP7</text>
+	</string>
+	<string id="st_wpn_mp7_descr">
+		<text>
+		The Heckler &amp; Koch MP7 (Maschinenpistole 7) is a German personal defence weapon (PDW) designed and manufactured by Heckler &amp; Koch (H&amp;K) and chambered for the H&amp;K 4.6x30mm cartridge. It was designed with the new cartridge to meet NATO requirements published in 1989, as these requirements call for a personal defense weapon (PDW) class firearm, with a greater ability to penetrate body armor than current weapons limited to conventional pistol cartridges. The MP7 went into production in 2001.\n
+		%c[ui_gray_3]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail.\n
+		%c[d_purple] • %c[ui_gray_2] B&T Rotex-II 4.6x30 sound suppressor.
+		</text>
+	</string>
+	<string id="st_mag_mp7_4.6x30_fmj">
+		<text>40-round 4.6x30 MP7 Magazine</text>
+	</string>
+	<string id="st_mag_mp7_4.6x30_fmj_descr">
+		<text>
+            40-round extended magazine for the MP7 PDW. Due to the somewhat rare nature of 4.6x30 rounds, it is rarely seen fully loaded in the zone.
+		</text>
+	</string>
+</string_table>

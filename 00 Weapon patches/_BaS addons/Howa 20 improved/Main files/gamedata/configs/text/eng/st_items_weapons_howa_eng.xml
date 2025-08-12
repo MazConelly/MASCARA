@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_howa20">
+		<text>Howa Type 20 (BaS)</text>
+	</string>
+	<string id="st_wpn_howa20_descr">
+		<text>The assault rifle was officially unveiled to the public in May 2020. This weapon is intended to replace the Type 89 assault rifle, which has been in service for about 30 years. The new rifle of the Japanese Self-Defense Forces, like the previous one, was developed by Howa Machinery Co, and uses 5.56 mm ammunition. The development of a new rifle to replace the Type 89 began at the request of the Japanese Armed Forces in 2014. Externally and structurally, the new Type 20 rifle is a kind of arithmetic mean of many modern rifles, such as the HK433 or CZ BREN II, and, apparently, does not have any original features. However, there is nothing wrong with this, since it is not the originality of the design that is required from the army weapon, but reliability, low price and compliance with the customer's requirements.\n
+		It remains a mystery how and in what quantity this rifle came to the participants of a scientific expedition to the Zone.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
+		%c[d_purple] • %c[ui_gray_2] Silencer: KAC QDSS NT-4 5.56х45</text>
+	</string>
+</string_table>

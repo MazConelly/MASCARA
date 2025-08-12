@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="windows-1251"?>
+
+<string_table>
+<string id="st_wpn_mp9_n">
+		<text>MP9</text>
+	</string>
+	<string id="st_wpn_mp9_n_descr">
+		<text>The MP9 is a compact and versatile submachine gun renowned for its reliability and ergonomic design. Originally developed by the German company Heckler & Koch, the MP9 has gained popularity as a reliable firearm in military and law enforcement circles. Featuring a blowback operation and chambered in 9x19mm Parabellum, the MP9 boasts a high rate of fire while maintaining manageable recoil. Its compact size, foldable stock, and ambidextrous controls make it well-suited for close-quarters combat situations. The weapon's polymer construction contributes to its lightweight nature, enhancing its portability and maneuverability. Widely recognized for its performance, the MP9 has become a favored choice for special forces units and security personnel worldwide. \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] Scopes for picatinny/weaver system. \n
+        %c[d_purple] - %c[ui_gray_2] Gemtech Suppressor.</text>
+	</string>
+
+<string id="st_wpn_mp9_j">
+		<text>MP9 "Tactical"</text>
+	</string>
+	<string id="st_wpn_mp9_j_descr">
+		<text>The MP9 Tactical variant is an enhanced version of the renowned submachine gun, now equipped with advanced tactical features to meet the demands of modern warfare. Developed by Heckler & Koch, this variant incorporates a tactical laser aiming device for improved target acquisition in low-light conditions and close-quarters engagements. The standard magazine capacity has been upgraded to a 40-round capacity, providing sustained firepower without the need for frequent reloads. The compact design, foldable stock, and ambidextrous controls remain, ensuring versatility and ease of use. This combination of firepower, precision, and maneuverability makes the MP9 Tactical a preferred choice for elite military and law enforcement units operating in dynamic and high-threat environments. \n \n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] - %c[ui_gray_2] All collimators for the picatinny/weaver system. \n
+        %c[d_purple] - %c[ui_gray_2] Gemtech Suppressor.</text>
+	</string>
+
+<string id="st_mag_mp9_short">
+		<text>MP9 Magazine</text>
+	</string>
+	<string id="st_mag_mp9_short_descr">
+		<text>Standard magazine for the MP9 Submachinegun, it holds 30 rounds of 9x19mm ammunition. \n \n</text>
+	</string>	
+	
+	<string id="st_mag_mp9_long">
+		<text>MP9 Extended Magazine</text>
+	</string>
+	<string id="st_mag_mp9_long_descr">
+		<text>Standard magazine for the MP9 Tactical Submachinegun, it holds 40 rounds of 9x19mm ammunition. \n \n</text>
+	</string>
+	
+</string_table>

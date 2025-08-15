@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_lr300_descr">
+		<text>Based on the AR-15, the LR-300 is an excellent weapon system suitable for military use in close quarters battle. Its folding skeletal stock makes it ideal for aggressive and rapid building entries requiring a compact yet powerful selective fire weapon. With excellent ergonomics and lightweight, this weapon is highly accurate but it is sensitive to dirt and is not ideal for difficult field conditions.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor\n
+		%c[d_purple] • %c[ui_gray_2] M203 grenade launcher (after modification)\n \n
+		%c[ui_gray_2]COMPATIBLE MOD KITS: Paint weapon kit, Custom weapon mod kit\n
+		With Misc. Weapons Pack: Specialized weapon mod kit
+		</text>
+	</string>
+</string_table>

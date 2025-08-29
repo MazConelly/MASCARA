@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="st_wpn_g3">
+		<text>G3A3</text>
+	</string>
+	<string id="st_wpn_g3_descr">
+		<text>The G3A3 is a battle rifle developed in the 1950s by the German arms manufacturer Heckler &amp; Koch GmbH in collaboration with the Spanish state owned design and development agency CETME (Centro de Estudios Tecnicos de Materiales Especiales). It is designed to use the 7.62x51mm NATO round, and uses a Roller-delayed blowback action. The rifle owes its design to the CETME mod. A, which was designed by the german engineer Dr. Ludwig Vorgrimler. In 1957, Heckler &amp; Koch bought the license to manufacture the rifle, where small modifications were made to the CETME design. Officially adopted into service in 1959, by the Bundeswehr as the G3, it remained in service until 1995 when it was replaced by the G36. Despite having been officially replaced by the German army, it is still in limited use.\n
+		%c[ui_gray_2]ATTACHMENTS: \n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatinny rail\n
+		%c[d_purple] • %c[ui_gray_2] 5.56x45 compatible suppressor</text>
+	</string>
+</string_table>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_m3a1tac_descr">
+		<text>This is a heavily modified version of an original M3A1 grease gun that brings it slightly into the 21st century. Featuring a camo paint job and two fancy attachments, it gives the user a slight advantage to the original.\n
+	    %c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] - %c[ui_gray_2] Scopes for Picatinny rail\n
+		%c[d_purple] - %c[ui_gray_2] Comes with Trijicon RX30 sight\n
+		%c[d_purple] - %c[ui_gray_2] Permanent homemade suppressor</text>
+	</string>
+
+</string_table>

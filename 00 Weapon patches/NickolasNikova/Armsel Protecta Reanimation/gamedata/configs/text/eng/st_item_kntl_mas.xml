@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+
+	<string id="st_wpn_streetsweeper_descr">
+		<text>The unique rotating cylinder-fed 12-gauge shotgun, developed for riot control and combat, is a force to be reckoned with in close-quarters mayhem. With its distinctive drum magazine, rapid-fire capabilities, and devastating spread, it's the go-to choice for those who prefer swift and powerful confrontations on the urban battlefield.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatini rail</text>
+	</string>
+
+	<string id="st_wpn_streetsweeper_nimble_descr">
+		<text>The unique rotating cylinder-fed 12-gauge shotgun, developed for riot control and combat, is a force to be reckoned with in close-quarters mayhem. With its distinctive drum magazine, rapid-fire capabilities, and devastating spread, it's the go-to choice for those who prefer swift and powerful confrontations on the urban battlefield. According to certain sources, this model once belonged to Tank, but little is known about him.\n
+		%c[ui_gray_2]ATTACHMENTS:\n
+		%c[d_purple] • %c[ui_gray_2] Scopes for Picatini rail</text>
+	</string>
+</string_table>

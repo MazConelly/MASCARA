@@ -1,0 +1,1 @@
+Aligns without issue, but after applying, the gun reorients leftwards without apparent reason.
